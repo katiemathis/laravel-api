@@ -16,6 +16,11 @@
 
                     Ciao {{$user->name}} - #{{$user->id}}!
 
+                    <br>
+                    
+                    There are {{$diffInDays}} days left until the end of the month.
+
+
                     
                 </div>
             </div>

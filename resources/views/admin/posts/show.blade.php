@@ -12,7 +12,7 @@
                 </div>
                 <ul class="list-group list-group-flush">
                 <li class="list-group-item">Created: {{$post->created_at}}</li>
-                <li class="list-group-item">By: {{$user->name ?? ''}}</li>
+                <li class="list-group-item">{{$diffInDays}} days ago</li>
                 <li class="list-group-item">Slug: {{$post->slug}}</li>
                 @if(is_null($post->category)) 
                     <li class="list-group-item">Category: </li>

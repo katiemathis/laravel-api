@@ -1,15 +1,23 @@
 <template>
   <div>
-      <h1>Work in Progress</h1>
-      <h3>What is going on?</h3>
+      
+      <Main/>
+
   </div>
 </template>
 
 <script>
-export default {
-    Name: 'App'
 
-};
+    import Main from '../components/Main';
+    export default {
+        Name: 'App',
+        components: {
+          Main
+        }
+        
+          
+
+    };
 </script>
 
 <style>
